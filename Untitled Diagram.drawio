@@ -1,1 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2020-07-23T19:09:36.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" version="13.5.1" etag="KlwD07dEG4OZAPktataB" type="github"><diagram id="9eNWPyJYi7Nis75wCGdy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-23T19:26:42.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="-b0qeajP07GZhTvVuLBI" version="13.5.1" type="github">
+  <diagram id="9eNWPyJYi7Nis75wCGdy" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-1" target="oLyRYUBkmb3Ywfdurw2y-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-1" value="User name&lt;br&gt;password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-5" value="off" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-2" target="oLyRYUBkmb3Ywfdurw2y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-7" value="online" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-2" target="oLyRYUBkmb3Ywfdurw2y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-2" value="if local offline / online" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-4" target="oLyRYUBkmb3Ywfdurw2y-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-4" value="receive wifi credintials&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-6" target="oLyRYUBkmb3Ywfdurw2y-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-6" value="receive auth token&lt;br&gt;and server data and home wifi credentials" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-8" target="oLyRYUBkmb3Ywfdurw2y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-8" value="switch to Main hub ssid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-10" target="oLyRYUBkmb3Ywfdurw2y-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-10" value="Send the ssid and pass of the user&#39;s wifi, the server data and auth to the main hub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-12" target="oLyRYUBkmb3Ywfdurw2y-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-12" value="Send the ssid and pass of the user&#39;s wifi, the server data and auth to the main hub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-14" target="oLyRYUBkmb3Ywfdurw2y-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-14" value="disconnect from Main hub and connect to home wifi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-16" target="oLyRYUBkmb3Ywfdurw2y-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-16" value="main hub send auth token to the server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="590" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="oLyRYUBkmb3Ywfdurw2y-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280.0000000000001" y="70.00000000000006" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-18" target="oLyRYUBkmb3Ywfdurw2y-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-18" value="select from local offline / hotspot / online" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-21" target="oLyRYUBkmb3Ywfdurw2y-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-21" value="set the SSID and pass of the main hub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-23" target="oLyRYUBkmb3Ywfdurw2y-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-23" value="Reconnect to the main hub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-25" value="Start normal com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLyRYUBkmb3Ywfdurw2y-27" target="oLyRYUBkmb3Ywfdurw2y-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-27" value="reconnect to home wifi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-29" value="start normal com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLyRYUBkmb3Ywfdurw2y-31" value="Start normal com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
